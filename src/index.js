@@ -1,5 +1,6 @@
 import react from "react";
-import reactDOM from "react-dom";
+import reactDOM from "react-dom/client";
+import App from "./components/App";
 
 const root = reactDOM.createRoot(document.getElementById("root"));
 
@@ -26,3 +27,9 @@ const root = reactDOM.createRoot(document.getElementById("root"));
 // const lName = "Özer"
 // root.render(<div><p>Created By {fname} {lName}</p><p>Copyright {new Date().getFullYear()}</p></div>);
 // //#endregion
+
+//#region Lesson 4
+root.render(<div>
+    <App />
+</div>);
+//#endregion
