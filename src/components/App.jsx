@@ -1,11 +1,12 @@
-import react from "react";
 import Heading from "./Heading";
 import List from "./List";
+import Name from "./Name";
 
-function App(){
+const App = () => {
     return <div>
         <Heading />  
         <List />
+        <Name />
     </div>;
 }
 
